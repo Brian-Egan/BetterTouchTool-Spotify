@@ -28,7 +28,7 @@
             "BTTTouchBarAlwaysShowButton" : "0",
             "BTTTouchBarAppleScriptString" : "tell application \"Spotify\"\r\tif it is running then\r\t\tif player state is playing then\r\t\t\tset track_name to name of current track\r\t\t\tset artist_name to artist of current track\r\t\t\t\r\t\t\tif artist_name > 0 then\r\t\t\t\t# If the track has an artist set and is therefore most likely a song rather than an advert\r\t\t\t\tartist_name & \" - \" & track_name\r\t\t\tend if\r\t\tend if\r\tend if\rend tell",
             "BTTTouchBarAlternateBackgroundColor" : "128.829533, 128.829533, 128.829533, 255.000000",
-            "BTTTouchBarScriptUpdateInterval" : 86.962455749511719
+            "BTTTouchBarScriptUpdateInterval" : 10.0
           }
         }
       ]
